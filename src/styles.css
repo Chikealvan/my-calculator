@@ -51,6 +51,6 @@ body {
   font-size: 1.5rem;
 }
 .output .current-operand {
-  color: #282c34;
+  color: yellowgreen;
   font-size: 2.5rem;
 }
