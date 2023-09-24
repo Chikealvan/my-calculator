@@ -131,7 +131,7 @@ function formatOperand(operand) {
   return `${INTEGER_FORMATTER.format(integer)}.${decimal}`;
 }
 
-function App() {
+export default function App() {
   const [{ currentOperand, previousOperand, operation }, dispatch] = useReducer(
     reducer,
     {}
@@ -179,5 +179,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

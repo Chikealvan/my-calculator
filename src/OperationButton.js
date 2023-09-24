@@ -1,6 +1,6 @@
 import { ACTIONS } from "./App";
 
-export default function OperationButton({ dispatch, operation }) {
+function OperationButton({ dispatch, operation }) {
   return (
     <button
       onClick={() =>
@@ -11,3 +11,5 @@ export default function OperationButton({ dispatch, operation }) {
     </button>
   );
 }
+
+export default OperationButton;
